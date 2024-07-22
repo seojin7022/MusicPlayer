@@ -1,5 +1,6 @@
-import { useState } from 'react'
-import { User, Music, Bell, Shield, HelpCircle } from 'lucide-react'
+"use client"
+import { useState } from 'react';
+import { User, Music, Bell, Shield, HelpCircle } from 'lucide-react';
 
 const SettingSection = ({ icon: Icon, title, children }) => (
   <div className="mb-6">
